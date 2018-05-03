@@ -1,5 +1,5 @@
 # use a node base image
-FROM node:master
+FROM node:7-onbuild
 
 # set maintainer
 LABEL maintainer "marknltv@comcast.net"
